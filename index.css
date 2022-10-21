@@ -1,6 +1,5 @@
 body {
-    /* background-image: url("background.png"); */
-    /* background-color: #e5d3c9; */
+  
     margin:0;
     padding:0;
 } 
@@ -111,7 +110,6 @@ body {
   color:#316AB1;
   height: min-content;
   padding-bottom: 20px;
-  /* height:16vh; */
 
 }
 .footer{
@@ -238,9 +236,14 @@ p{
   }
 
   .menuop{
-    /* flex-wrap: wrap; */
     flex-direction: column;
   }
+
+  .image-container{
+    background-position: center;
+    background-size:auto;
+  }
+
 }
 
 .col-left, .col-right {
